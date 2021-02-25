@@ -1,0 +1,188 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#title {
+  /* background-color: #00adb5; */
+  /* background-color: #ffb4b4; */
+  background-color: #ff9292;
+  text-align: center;
+}
+
+.colornav {
+  background-color: #303841;
+  margin-bottom: 5%;
+}
+
+.nav- {
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+/* .nav-link {
+  color: white;
+} */
+
+/* .navbar-nav {
+  margin-left: 77%;
+} */
+
+h1, h2, h3, h4 {
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  padding: 2% 0% 1%;
+  ;
+  margin-bottom: 0px;
+  font-size: 3rem;
+}
+
+p {
+  font-family: 'Tinos', serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Second Page */
+#second {
+  /* background-color: #00adb5; */
+  /* background-color: #ffb4b4; */
+  background-color: #ff9292;
+  text-align: center;
+}
+
+.secondcol {
+  padding: 4%;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+  /* background-color: #8ac4d0; */
+  /* background-color: #ad6c80; */
+}
+
+/* Third Page */
+#third {
+  background-color: #ff9292;
+  /* background-color: #ffb4b4; */
+
+}
+
+h4 {
+  font-size: 4rem;
+}
+
+#carouselExampleIndicators {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.carousel-item {
+  height: 232px;
+}
+
+.double {
+  padding-top: 3%;
+}
+
+.single {
+  padding-top: 6%;
+}
+
+.carousel-control-next {
+  right: -40px;
+}
+
+.carousel-control-prev {
+  left: -40px;
+}
+
+/* Fourth Page */
+#fourth {
+background-color: #ff9292;
+text-align: center;
+position: relative;
+}
+img {
+  width: 19%;
+height: 250px;
+}
+.mapname {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+.Ame {
+  right: 1338.22px;
+top: 84px;
+}
+.Afr
+  {
+    top: 84px;
+    right: 994.03px;
+}
+.Eur {
+    top: 84px;
+    right: 702px;
+}
+.Aus {
+    top: 84px;
+    right: 127px;
+}
+
+/* Fifth Page */
+#fifth {
+  background-color: #ffb4b4;
+  text-align: center;
+  padding: 4% 15% 1%;;
+}
+h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.mail {
+  color: black;
+}
+hr {
+  border-bottom: 15px dotted #ff9292;
+  width: 15%;
+  margin-top: 27px;
+}
+.distin {
+  border-bottom: 15px dotted #ffb4b4;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 10%;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+
+  #fourth {
+   display: none;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+  .bg-primary {
+      background-color: #303841 !important;
+    }
